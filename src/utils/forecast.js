@@ -9,7 +9,8 @@ const forecast = (latitude, longitude, callback) => {
         } else if (locationError) {
             callback('The given location is invalid', undefined)
         } else {
-            callback(undefined, `${daily.data[0].summary} La temperatura es ${currently.temperature}°C. Hay ${currently.precipProbability}% de probabilidad de lluvia.`)
+            callback(undefined, `Síntesis semanal: ${daily.summary} Resumen del día: ${daily.data[0].summary} La temperatura actual es ${currently.temperature}°C. La temperatura máxima será de ${daily.data[0].temperatureHigh}°C, y la baja será de ${daily.data[0].temperatureLow}°C. Hay ${currently.precipProbability}% de probabilidad de lluvia.`)
+
         }
     })
 }
