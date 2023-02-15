@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: node-weather-website
   annotations:
+    backstage.io/techdocs-ref: dir:docs/
     github.com/project-slug: Mauriceac/node-weather-website
 spec:
   type: other
