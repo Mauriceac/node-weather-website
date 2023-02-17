@@ -1,13 +1,4 @@
 site_name: Weather App
 nav:
   - "Home": index.md
-  - "Installation/Setup": setup.md
-  - "Authorization": auth.md
-  - "API Reference Guide": api-reference-guide.md
-  - "Examples": examples.md
-  - "Topical Guide": topical-guide.md
-  - "Troubleshooting": troubleshooting.md
-  - "Response Descriptions": responses.md
-  - "Error Messages": errors.md
-  - "Change Logs": change-logs.md
 plugins: []
