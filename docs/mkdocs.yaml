@@ -2,4 +2,5 @@ site_name: Weather App
 repo_url: https://github.com/Mauriceac/node-weather-website/tree/master/docs
 nav:
   - "Home": index.md
-plugins: []
+plugins:
+  - techdocs-core
