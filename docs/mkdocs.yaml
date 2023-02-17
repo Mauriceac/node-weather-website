@@ -1,7 +1,6 @@
 site_name: Weather App
 nav:
-  - Home: index.md
-  - "Overview": overview.md
+  - "Home": index.md
   - "Installation/Setup": setup.md
   - "Authorization": auth.md
   - "API Reference Guide": api-reference-guide.md
