@@ -9,3 +9,5 @@
 7. Response Descriptions
 8. Error Messages
 9. Change Logs
+
+This file is found on a Github repository´: https://github.com/Mauriceac/node-weather-website/edit/master/docs/index.md
